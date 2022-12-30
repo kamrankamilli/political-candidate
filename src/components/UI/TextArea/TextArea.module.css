@@ -1,0 +1,27 @@
+.control textarea {
+  padding: 1.2rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #d5b1d6;
+  color: inherit;
+  border-radius: 9px;
+  box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 10%);
+}
+.control {
+  grid-row-start: 6;
+  grid-column: 1/-1;
+}
+.control label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+@media (max-width: 34em){
+  .control {
+    grid-row-start: 11;
+    grid-column: 1/-1;
+  }
+}

@@ -1,0 +1,40 @@
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+  background-color: #1f1f1f;
+}
+.container {
+  display: grid;
+  row-gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.logoCol {
+  display: flex;
+  flex-direction: column;
+}
+.logoCol a {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.copyright {
+  font-size: 1.4rem;
+  color: #eee;
+  line-height: 1.6;
+  margin-top: auto;
+}
+.footerHeading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.contacts{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.address{
+    margin-bottom: 2.4rem;
+}

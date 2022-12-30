@@ -1,0 +1,136 @@
+/* .container {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(149, 61, 152, 0.7)
+    ),
+    url("../../assets/Pinar_Aday.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.blank {
+  width: 100%;
+  background-color: rgb(246, 239, 247);
+}
+.blank .textBox {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+.blank p {
+  font-size: 1.6rem;
+  line-height: 1.85;
+}
+.blank p:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+.second {
+  background-image: url("");
+  background-attachment: fixed;
+}
+
+.item {
+  display: flex;
+  width:80%;
+  margin: 0 auto;
+  height:80%;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+}
+
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
+ */
+
+.parallax-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div.parallax-image1 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  top: 0;
+}
+
+.sticky {
+  margin-top: -100vh;
+  height: 100vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: -10;
+}
+
+div.section-header {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+div.header-text {
+  height: auto;
+  padding: 0 2rem;
+  padding-left: calc(20vw - 7rem);
+  margin-bottom: 2rem;
+  color: #fff;
+  background: rgba(149, 61, 152);
+}
+
+div.section {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  padding: 3rem calc(20vw - 7rem);
+  z-index: 1;
+}
+
+div.section:last-child {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 3rem;
+  height: 0;
+  overflow: hidden;
+}
+
+.section p {
+  font-size: 2.4rem;
+  line-height: 1.05;
+  margin-top: 2.4rem;
+}
+
+
+@media (max-width:44em){
+  .section p {
+    font-size: 1.8rem;
+  }
+}

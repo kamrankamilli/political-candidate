@@ -1,0 +1,23 @@
+.social-icon {
+  height:2.4rem;
+  width:2.4rem;
+}
+.social-container{
+    display: flex;
+}
+.social-container a:not(:last-child){
+  margin-right:1.8rem;
+}
+.social-link:link,
+.social-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    color:#953d98;
+    font-weight: 700;
+    font-size: 2.4rem;
+    transition: all 0.3s;
+}
+.social-link:hover,
+.social-link:active {
+  color: #000;
+}

@@ -1,0 +1,36 @@
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.contact-section {
+  width: 50%;
+  margin: 6.4rem auto;
+  background-color: #953d98;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.contact-section h1 {
+  color: #000;
+  text-align: center;
+}
+@media (max-width: 59em) {
+  .contact-section {
+    width: 60%;
+  }
+}
+@media (max-width:44em){
+  .contact-section {
+    width:80%;
+  }
+}
+@media (max-width:34em){
+  .contact-section{
+    width: 100%;
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+  .contact-form{
+    grid-template-columns: 1fr;
+  }
+}
