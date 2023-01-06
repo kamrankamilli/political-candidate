@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import style from "./Logo.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 const Logo = () => {
   const clickHandler = () => {
     document.documentElement.scrollTo({
