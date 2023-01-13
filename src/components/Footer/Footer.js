@@ -11,7 +11,7 @@ const Footer = () => {
           <p className={style.copyright}>
             Pınar Sarısaray Bölük &#169; <span>{new Date().getFullYear()}</span>
           </p>
-          <p className={style.copyright}>Website created by Kamran Kamilli</p>
+          <p className={style.copyright}>Website created by Kamran Kamilli, used for research purposes only</p>
         </div>
       </div>
     </footer>
