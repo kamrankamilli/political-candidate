@@ -17,3 +17,6 @@
   border-radius: 9px;
   box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 10%);
 }
+input:focus::placeholder {
+  color: transparent;
+}
