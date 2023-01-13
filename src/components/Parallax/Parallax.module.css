@@ -64,10 +64,11 @@
 
 .parallax-iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 div.parallax-image1 {
   -webkit-background-size: cover;
@@ -127,7 +128,9 @@ div.section:last-child {
   line-height: 1.05;
   margin-top: 2.4rem;
 }
-
+.transparent{
+  background-color:transparent !important;
+}
 
 @media (max-width:44em){
   .section p {

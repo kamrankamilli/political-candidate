@@ -9,9 +9,9 @@ const Footer = () => {
           <Logo></Logo>
           <Social></Social>
           <p className={style.copyright}>
-            Copyright &#169; <span>{new Date().getFullYear()}</span> by Kamran
-            Kamilli. All rights reserved.
+            Pınar Sarısaray Bölük &#169; <span>{new Date().getFullYear()}</span>
           </p>
+          <p className={style.copyright}>Website created by Kamran Kamilli</p>
         </div>
       </div>
     </footer>
