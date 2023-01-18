@@ -4,22 +4,24 @@ import { Link } from "react-router-dom";
 const IssueItem = (props) => {
   return (
     <li className={style.item}>
-      <Link  to={`/konular/${props.id}`}>
-        {props.linkTitle}
-        <Card>
-          <div className={style.image}>
-            <img
-              src={require(`../../assets/${props.img}`)}
-              alt={props.alt}
-              loading="lazy"
-            ></img>
-          </div>
+      {props.linkTitle}
+      <Card>
+        <div className={style.image}>
+          <iframe
+            src={props.youtube}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <Link to={`/konular/${props.id}`}>
           <div className={style.content}>
             <h3>{props.title}</h3>
             <p>{props.text}</p>
           </div>
-        </Card>
-      </Link>
+        </Link>
+      </Card>
     </li>
   );
 };

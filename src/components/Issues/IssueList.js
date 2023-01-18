@@ -10,7 +10,7 @@ const IssuesList = (props) => {
           <IssueItem
             key={issue.id}
             id={issue.id}
-            img={issue.img}
+            youtube={issue.youtube}
             alt={issue.alt}
             title={issue.title}
             text={issue.text}
