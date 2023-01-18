@@ -1,12 +1,12 @@
 .list {
   list-style: none;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 6.8rem;
-  max-width: 120rem;
+  max-width: 100rem;
+  flex-direction: column;
 }
 .section-issues h1 {
   color: #953d98;
