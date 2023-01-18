@@ -9,7 +9,7 @@ const TwitItem = (props) => {
         <div className={style.content}>
           <FaTwitter className={style.icon}></FaTwitter>
           <p className={style.text}>{props.text}</p>
-          <p className={style.ago}>{timeSince(new Date(props.createdAt))} ago</p>
+          <p className={style.ago}>{timeSince(new Date(props.createdAt))} önce</p>
         </div>
       </Card>
     </li>
