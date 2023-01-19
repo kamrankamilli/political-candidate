@@ -9,7 +9,7 @@ const twits = [
   },
   {
     id: "2",
-    text: '"  Şimdiye kadar uygulanan eğitim ve öğretim yöntemlerinin milletimizin geri kalmasında en önemli etken olduğu kanısındayım. Onun için bir milli eğitim programından söz ederken, eski devrin boş inançlarından ve yaratılışımızla hiç ilgisi olmayan yabancı fikirlerden, doğudan ve batıdan gelebilen bütün etkilerden tamamen uzak, milli karakterimiz ve milli tarihimizle uyumlu bir kültür kastediyorum. Çünkü milli dehamızın gelişmesi ancak böyle bir kültür ile sağlanabilir. "',
+    text: '" En büyük ihtiyacımız dünya standartlarının ötesinde geleceği yöneten yeni eğitim anlayışı" yazalım olur mu "',
     createdAt: "Mon Oct 15 00:13:42 +0300 2022",
   },
   {
