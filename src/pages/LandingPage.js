@@ -9,7 +9,7 @@ const twits = [
   },
   {
     id: "2",
-    text: '" En büyük ihtiyacımız dünya standartlarının ötesinde geleceği yöneten yeni eğitim anlayışı" yazalım olur mu "',
+    text: '" En büyük ihtiyacımız dünya standartlarının ötesinde geleceği yöneten yeni eğitim anlayışı" ',
     createdAt: "Mon Oct 15 00:13:42 +0300 2022",
   },
   {
